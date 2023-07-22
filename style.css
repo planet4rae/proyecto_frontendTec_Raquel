@@ -1,0 +1,166 @@
+/* -header--------------------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Yanone+Kaffeesatz:wght@200;300;500&display=swap');
+
+body {
+    height: 100%;
+}
+
+/* Navbar */
+.container-fluid {
+    margin: 0 2%;
+}
+
+.navbar {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding: 0;
+    font-size: 2em;
+    font-weight: 500;
+    background-color: #FBDCDE;
+}
+
+.navbar-nav .nav-link.active,
+a.nav-link {
+    color: #cf752c;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    vertical-align: middle;
+    background-image: var(--bs-navbar-toggler-icon-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #cf752c;
+}
+
+
+#logo {
+    margin: 15px 10px 15px 5px;
+}
+
+.network {
+    margin: 0 3px;
+    width: 2em;
+}
+
+/*- Productos estrellas--------------------------------------------------------------------------------- */
+.accordion {
+    margin: auto;
+
+}
+
+.card {
+    margin: 2em;
+}
+
+.accordion-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+/*-Formulario------------------------------------------------------------------------------------------ */
+.formulario {
+    margin: 5% 10%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+
+
+
+/*-Quienes----------------------------------------------------------------------------------------- */
+.somos {
+    margin-top: 2em;
+}
+
+.font {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.medida {
+    margin: 2em;
+}
+
+.quienes img {
+    width: 15em;
+}
+
+.parrafo {
+    margin: 1em;
+    padding: 2em;
+}
+
+/*-Cursos----------------------------------------------- */
+
+.texto {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    margin: 2em;
+    text-align: justify;
+}
+
+.curso img {
+    width: 10em;
+    margin: 2em;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.diploma h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    margin: 2em;
+}
+
+/* Galeria------------------------------------------------- */
+
+
+.galeria img {
+    width: 20em;
+    margin: 4em 0;
+}
+
+
+
+
+
+
+/*- footer--------------------------------------------------------------------------------- */
+.footer {
+    height: 150px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #3d3d3d;
+    padding: 2%;
+    background-color: #fbeddc;
+}
+
+.grupo {
+    padding-top: 10px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: start;
+
+}
+
+.grupo img {
+    width: 20px;
+}
+
+.copyright {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    background-color: #fbeddc;
+    padding: 10px;
+}
